@@ -1,19 +1,37 @@
-# :earth_americas: GDP dashboard template
+# 🐧 Palmer Penguins Data Analysis Dashboard
 
-A simple Streamlit app showing the GDP of different countries in the world.
+An interactive Streamlit dashboard for performing **exploratory data analysis (EDA)** on the Palmer Penguins dataset.  
+The dataset provides biological measurements for penguin species observed in the Palmer Archipelago, Antarctica.  
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://roy-gdp-dashboard.streamlit.app/)
 
-### How to run it on your own machine
+---
 
-1. Install the requirements
+## 📊 Features
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+- **Interactive Filters**  
+  - Filter penguins by **species**, **island**, **sex**, and **body mass range**.  
 
-2. Run the app
+- **Key Metrics**  
+  - Total penguins in dataset  
+  - Average bill length (mm)  
+  - Average body mass (kg)  
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+- **Visualizations**  
+  - Scatter plot: **Bill Length vs. Bill Depth** (color-coded by species)  
+  - Bar chart: **Average Body Mass by Species**  
+
+- **Raw Data View**  
+  - Expandable section to view the raw dataset directly.  
+
+- **Data Source**  
+  - [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)  
+
+---
+
+## 🚀 How to run locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
