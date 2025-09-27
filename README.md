@@ -5,33 +5,17 @@ The dataset provides biological measurements for penguin species observed in the
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://roy-gdp-dashboard.streamlit.app/)
 
----
-
 ## 📊 Features
+- Interactive filters: filter penguins by **species**, **island**, **sex**, and **body mass range**.  
+- Key metrics: total penguins in dataset, average bill length (mm), and average body mass (kg).  
+- Visualizations: scatter plot of **Bill Length vs. Bill Depth** (color-coded by species) and bar chart of **Average Body Mass by Species**.  
+- Raw data view with expandable table.  
+- Data source: [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/).  
 
-- **Interactive Filters**  
-  - Filter penguins by **species**, **island**, **sex**, and **body mass range**.  
-
-- **Key Metrics**  
-  - Total penguins in dataset  
-  - Average bill length (mm)  
-  - Average body mass (kg)  
-
-- **Visualizations**  
-  - Scatter plot: **Bill Length vs. Bill Depth** (color-coded by species)  
-  - Bar chart: **Average Body Mass by Species**  
-
-- **Raw Data View**  
-  - Expandable section to view the raw dataset directly.  
-
-- **Data Source**  
-  - [Palmer Penguins Dataset](https://allisonhorst.github.io/palmerpenguins/)  
-
----
-
-## 🚀 How to run locally
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+## 🚀 How to Run Locally
+Clone this repository, install dependencies, and run the Streamlit app:
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+pip install -r requirements.txt
+streamlit run streamlit_app.py
